@@ -1,4 +1,4 @@
-INSTRUCTOR TESTING H00--WHO ARE YOU?
+INSTRUCTOR TESTING H00--mtran362
 ----------------------------------------------------------------------
    X Input of 5: expected [0.000141748, 7054.78] but found [1, 1]
    X Input of 8: expected [0.000226796, 4409.24] but found [1, 1]
@@ -9,6 +9,6 @@ INSTRUCTOR TESTING H00--WHO ARE YOU?
    X Input of 32: expected [0.000907186, 1102.31] but found [1, 1]
    + Input of 35273.92->1, 1
 ----------------------------------------------------------------------
-INSTRUCTOR TESTS H00:WHO ARE YOU?: ALL TESTS -- PASS 1/8 (12%).
+INSTRUCTOR TESTS H00:mtran362: ALL TESTS -- PASS 1/8 (12%).
 ----------------------------------------------------------------------
-MTU2Njk2ODAzODpXSE8gQVJFIFlPVT86SDAwOjEyLjUwJQ==
+MTU2Njk2ODM4ODptdHJhbjM2MjpIMDA6MTIuNTAl
