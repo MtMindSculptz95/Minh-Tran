@@ -1,0 +1,38 @@
+TESTING H05--mtran362
+----------------------------------------------------------------------
+Checking function: focalLength(d, r1, r2, n)->modify n (refractiveIndex) -------------------
+   + RI = 1.6; focalLength(5, 50, 100, 1.6)
+   + RI = 1.2; focalLength(5, 50, 100, 1.2)
+   + RI = 1.8; focalLength(5, 50, 100, 1.8)
+   + RI = 2.878; focalLength(5, 50, 100, 2.878)
+----------------------------------------------------------------------
+  Tests passing 4/4 (100%).
+
+Checking function: focalLength(d, r1, r2, n)->modify d (thickness) -------------------
+   + d = 2.5; focalLength(2.5, 50, 100, 1.8)
+   + d = 3.3; focalLength(3.3, 50, 100, 1.8)
+   + d = 4.5; focalLength(4.5, 50, 100, 1.8)
+   + d = 5.5; focalLength(5.5, 50, 100, 1.8)
+----------------------------------------------------------------------
+  Tests passing 4/4 (100%).
+
+Checking function: focalLength(d, r1, r2, n)->modify r1 (Radius 1) -------------------
+   + r1 = 35; focalLength(5, 35, 100, 1.8)
+   + r1 = 40; focalLength(5, 40, 100, 1.8)
+   + r1 = 45; focalLength(5, 45, 100, 1.8)
+   + r1 = 60; focalLength(5, 60, 100, 1.8)
+----------------------------------------------------------------------
+  Tests passing 4/4 (100%).
+
+Checking function: focalLength(d, r1, r2, n)->modify r2 (Radius 2) -------------------
+   + r2 = 75; focalLength(5, 50, 75, 1.8)
+   + r2 = 95; focalLength(5, 50, 95, 1.8)
+   + r2 = 110; focalLength(5, 50, 110, 1.8)
+   + r2 = 150; focalLength(5, 50, 150, 1.8)
+----------------------------------------------------------------------
+  Tests passing 4/4 (100%).
+
+----------------------------------------------------------------------
+H05:mtran362:ALL TESTS -- PASS 16/16 (100%).
+----------------------------------------------------------------------
+MTU2ODI2NzM5NTptdHJhbjM2MjpIMDU6MTAwLjAwJQ==
