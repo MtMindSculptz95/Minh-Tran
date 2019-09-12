@@ -21,5 +21,5 @@ double focalLength(double d, double r1, double r2, double n)
 
     result = (n-1) * (x + z);
 
-    return result;
+    return 1/result;
 }
