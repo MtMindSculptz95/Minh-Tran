@@ -11,6 +11,8 @@ string STUDENT = "mtran362";  // Add your Canvas login name
 // Implement your function here
 string toFrenchGender(const string& country)
 {
+    string vowels = "UEOAI";
+    string islands = "iles";
     string result = "who knows?";
     size_t len = country.size();
     string last = country.substr(len - 2,2);
@@ -18,8 +20,6 @@ string toFrenchGender(const string& country)
     string masculine = "Belize, Cambodge, Honduras, Mexique, Mozambique, Costa Rice, Zimbabwe";
     string plain = "Israel, Madagascar, Sri Lanka, Singapore, Monaco, Cuba and Cyprus";
     string backExem = "es, is, os, as";
-    string vowels = "UEOAI";
-    string islands = "iles";
 
     auto notFound = string::npos;
 
