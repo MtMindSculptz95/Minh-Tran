@@ -1,0 +1,26 @@
+TESTING H07--mtran362
+----------------------------------------------------------------------
+Checking function: sumNums("str") -------------------
+   + sumNums("5vcpdx7053911")->7053916
+   + sumNums("ase06xj")->6
+   + sumNums("ln5g9")->14
+   + sumNums("a22bbb3")->25
+   + sumNums("9aqu6gt1j6f4z2i7")->35
+   + sumNums("0uiw5x2v8lx")->15
+   + sumNums("yl39x")->39
+   + sumNums("5hoco1a1e")->7
+   + sumNums("abc123xyz")->123
+   + sumNums("4p")->4
+   + sumNums("yh69m662")->731
+   + sumNums("aa11b33")->44
+   + sumNums("6227326n73g2")->6227401
+   + sumNums("71f1mlz4247wb")->4319
+   + sumNums("xw55t")->55
+   + sumNums("32rj05xorky3")->40
+----------------------------------------------------------------------
+  Tests passing 16/16 (100%).
+
+----------------------------------------------------------------------
+H07:mtran362:ALL TESTS -- PASS 16/16 (100%).
+----------------------------------------------------------------------
+MTU2ODYyMzM0NDptdHJhbjM2MjpIMDc6MTAwLjAwJQ==
