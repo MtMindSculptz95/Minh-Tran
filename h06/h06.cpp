@@ -23,23 +23,23 @@ string toFrenchGender(const string& country)
 
     auto notFound = string::npos;
 
-    if (masculine.find(country) != notFound)
+    if(masculine.find(country) != notFound)
     {
         prefix = "le ";
     }
-    else if (plain.find(country) != notFound)
+    else if(plain.find(country) != notFound)
     {
         prefix = "";
     }
-    else if (backExem.find(last) != notFound || country.substr(0, 4) == islands)
+    else if(backExem.find(last) != notFound || country.substr(0, 4) == islands)
     {
         prefix = "les ";
     }
-    else if (vowels.find(country.front()) != notFound)
+    else if(vowels.find(country.front()) != notFound)
     {
         prefix = "l'";
     }
-    else if (country.back() == 'e' || country.back() == 'o')
+    else if(country.back() == 'e' || country.back() == 'o')
     {
         prefix = "la ";
     }
