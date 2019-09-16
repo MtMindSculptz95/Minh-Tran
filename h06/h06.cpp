@@ -27,13 +27,13 @@ string toFrenchGender(const string& country)
     {
         prefix = "le ";
     }
-    else if(plain.find(country) != notFound)
-    {
-        prefix = "";
-    }
     else if(backExem.find(last) != notFound || country.substr(0, 4) == islands)
     {
         prefix = "les ";
+    }
+    else if(plain.find(country) != notFound)
+    {
+        prefix = "";
     }
     else if(vowels.find(country.front()) != notFound)
     {
