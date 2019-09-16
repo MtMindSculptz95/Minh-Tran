@@ -1,0 +1,25 @@
+TESTING H06--mtran362
+----------------------------------------------------------------------
+Checking function: toFrenchGender("country") -------------------
+   + toFrenchGender("Autriche")->l'Autriche
+   + toFrenchGender("iles Salomon")->les iles Salomon
+   + toFrenchGender("Bresil")->le Bresil
+   + toFrenchGender("Norvege")->la Norvege
+   + toFrenchGender("Madagascar")->Madagascar
+   + toFrenchGender("Espagne")->l'Espagne
+   + toFrenchGender("Philippines")->les Philippines
+   + toFrenchGender("Monaco")->Monaco
+   + toFrenchGender("Canada")->le Canada
+   + toFrenchGender("Nouvelle-Zelande")->la Nouvelle-Zelande
+   + toFrenchGender("iles Galapagos")->les iles Galapagos
+   + toFrenchGender("iles Malouines")->les iles Malouines
+   + toFrenchGender("Macedonie")->la Macedonie
+   + toFrenchGender("Honduras")->le Honduras
+   + toFrenchGender("Costa Rica")->le Costa Rica
+----------------------------------------------------------------------
+  Tests passing 15/15 (100%).
+
+----------------------------------------------------------------------
+H06:mtran362:ALL TESTS -- PASS 15/15 (100%).
+----------------------------------------------------------------------
+MTU2ODYyMjg4MjptdHJhbjM2MjpIMDY6MTAwLjAwJQ==

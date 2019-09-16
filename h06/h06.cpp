@@ -11,7 +11,7 @@ string STUDENT = "mtran362";  // Add your Canvas login name
 // Implement your function here
 string toFrenchGender(const string& country)
 {
-   string prefix;
+    string prefix;
     string vowels = "UEOAI";
     string islands = "iles";
     string backExem = "es, is, os, as";
