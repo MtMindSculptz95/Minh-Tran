@@ -31,10 +31,6 @@ string toFrenchGender(const string& country)
     {
         prefix = "les ";
     }
-    else if(plain.find(country) != notFound)
-    {
-        prefix = "";
-    }
     else if(vowels.find(country.front()) != notFound)
     {
         prefix = "l'";
@@ -42,6 +38,10 @@ string toFrenchGender(const string& country)
     else if(country.back() == 'e' || country.back() == 'o')
     {
         prefix = "la ";
+    }
+    else if(plain.find(country) != notFound)
+    {
+        prefix = "";
     }
     else
     {
