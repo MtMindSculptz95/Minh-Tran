@@ -16,10 +16,10 @@ string toFrenchGender(const string& country)
     string islands = "iles";
     string backExem = "es, is, os, as";
     string result = "who knows?";
+    string plain = "Israel, Madagascar, Sri Lanka, Singapore, Monaco, Cuba and Cyprus";
+    string masculine = "Belize, Cambodge, Honduras, Mexique, Mozambique, Costa Rice, Zimbabwe";
     size_t len = country.size();
     string last = country.substr(len - 2,2);
-    string masculine = "Belize, Cambodge, Honduras, Mexique, Mozambique, Costa Rice, Zimbabwe";
-    string plain = "Israel, Madagascar, Sri Lanka, Singapore, Monaco, Cuba and Cyprus";
 
     auto notFound = string::npos;
 
