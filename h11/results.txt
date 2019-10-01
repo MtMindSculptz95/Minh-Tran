@@ -1,0 +1,18 @@
+TESTING H11--mtran362
+----------------------------------------------------------------------
+Checking function: Checking the strip function. -------------------
+   + Single line comment removed: Success
+   + Comment embedded in string not removed: Success
+   + Strings in comments removed; newlines retained: Success
+   + More string-embedded comments retained: Success
+   + Same-line paired comments removed: Success
+   + Escaped quotes and comments in a string:: Success
+   + More escaped quotes inside a string: Success
+   + Doxygen comments removed: Success
+----------------------------------------------------------------------
+  Tests passing 8/8 (100%).
+
+----------------------------------------------------------------------
+H11:mtran362:ALL TESTS -- PASS 8/8 (100%).
+----------------------------------------------------------------------
+MTU2OTk2OTI0MTptdHJhbjM2MjpIMTE6MTAwLjAwJQ==
