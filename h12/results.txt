@@ -1,0 +1,15 @@
+TESTING H12--mtran362
+----------------------------------------------------------------------
+Checking function: Checking the expense filter. -------------------
+   + Simple name and numbers:: Success
+   + Two word name, simple numbers: Success
+   + Multiple lines: Success
+   + Multiple white space in name: Success
+   + Notes in the expense list: Success
+----------------------------------------------------------------------
+  Tests passing 5/5 (100%).
+
+----------------------------------------------------------------------
+H12:mtran362:ALL TESTS -- PASS 5/5 (100%).
+----------------------------------------------------------------------
+MTU2OTk2OTIzMDptdHJhbjM2MjpIMTI6MTAwLjAwJQ==
