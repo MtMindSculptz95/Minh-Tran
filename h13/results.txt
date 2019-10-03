@@ -1,0 +1,43 @@
+TESTING H13--mtran362
+----------------------------------------------------------------------
+Checking function: dataSets -------------------
+   + data/ds0.txt output lines->0->0
+   + data/notfound.txt output lines->1->1
+   + Line #1.->data/notfound.txt cannot be opened.
+   + data/ds12.txt output lines->8->8
+   + Line #1.->data set 1: total values = 9
+   + Line #2.->average value = 8.7000
+   + Line #3.->
+   + Line #4.->data set 2: total values = 18
+   + Line #5.->average value = 6.5722
+   + data/ds9.txt output lines->17->17
+   + Line #1.->data set 1: total values = 5
+   + Line #2.->average value = 2.4000
+   + Line #3.->
+   + Line #4.->data set 2: total values = 13
+   + Line #5.->average value = 6.6154
+   + data/ds10.txt output lines->17->17
+   + Line #1.->data set 1: total values = 8
+   + Line #2.->average value = 1.4000
+   + Line #3.->
+   + Line #4.->data set 2: total values = 6
+   + Line #5.->average value = 5.3000
+   + data/ds8.txt output lines->5->5
+   + Line #1.->data set 1: total values = 13
+   + Line #2.->average value = 4.5077
+   + Line #3.->
+   + Line #4.->data set 2: total values = 13
+   + Line #5.->average value = 5.2308
+   + data/ds5.txt output lines->14->14
+   + Line #1.->data set 1: total values = 21
+   + Line #2.->average value = 2.7571
+   + Line #3.->
+   + Line #4.->data set 2: total values = 9
+   + Line #5.->average value = 6.4667
+----------------------------------------------------------------------
+  Tests passing 33/33 (100%).
+
+----------------------------------------------------------------------
+H13:mtran362:ALL TESTS -- PASS 33/33 (100%).
+----------------------------------------------------------------------
+MTU3MDA4MjI2NjptdHJhbjM2MjpIMTM6MTAwLjAwJQ==
