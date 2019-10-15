@@ -1,13 +1,13 @@
 /**
- *  @author Put your name here
- *  @date Put the date here
+ *  @author Minh Tran
+ *  @date TT EVE
  *  @file h17.cpp
  */
 #include <string>
 #include <cmath>
 using namespace std;
 
-string STUDENT = "WHO AM I?"; // Add your Canvas/occ-email ID
+string STUDENT = "mtran362"; // Add your Canvas/occ-email ID
 
 #include "h17.h"
 
@@ -24,6 +24,7 @@ std::string toString(Suit s)
 
     }
 }
+
 std::string toString(Rank r)
 {
     switch(r)
