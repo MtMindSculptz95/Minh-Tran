@@ -51,6 +51,7 @@ vector<WORD> spellCheck(istream& in, const vector<string>& dictionary, const vec
                 found = true;
             }
         }
+
         if(found)
         {
             continue;
@@ -65,6 +66,7 @@ vector<WORD> spellCheck(istream& in, const vector<string>& dictionary, const vec
                 }
             }
         }
+
         if(found)
         {
             continue;
@@ -79,6 +81,7 @@ vector<WORD> spellCheck(istream& in, const vector<string>& dictionary, const vec
                 }
             }
         }
+
         if(found)
         {
             continue;
