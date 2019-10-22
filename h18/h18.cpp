@@ -17,7 +17,25 @@ string STUDENT = "WHO AM I?"; // Add your Canvas/occ-email ID
 #include "h18.h"
 
 // Place your function definition here
+vector<string> fileToWords(const string& filename)
+{
+    vector<string> result;
+    ifstream in(filename);
 
+    if(in.fail())
+    {
+        throw invalid_argument("invalid file name.");
+    }
+    while(!in.eof())
+    {
+        string word;
+        while(in >> word)
+        {
+            result.push_back(word);
+        }
+    }
+    return result;
+}
 
 
 
