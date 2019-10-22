@@ -1,4 +1,4 @@
-TESTING H18--WHO AM I?
+TESTING H18--mtran362
 ----------------------------------------------------------------------
 Checking function: fileToWords -------------------
   Open the main dictionary
@@ -15,6 +15,6 @@ Checking function: fileToWords -------------------
   Tests passing 7/7 (100%).
 
 ----------------------------------------------------------------------
-H18:WHO AM I?:ALL TESTS -- PASS 7/7 (100%).
+H18:mtran362:ALL TESTS -- PASS 7/7 (100%).
 ----------------------------------------------------------------------
-MTU3MTcyMjYzMzpXSE8gQU0gST86SDE4OjEwMC4wMCU=
+MTU3MTc4ODA1MTptdHJhbjM2MjpIMTg6MTAwLjAwJQ==
