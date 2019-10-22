@@ -1,0 +1,37 @@
+TESTING H19--WHO AM I?
+----------------------------------------------------------------------
+Checking function: spellCheck; Check number found. -------------------
+   + some examples with only correct words->0: Success
+   + more words spelled entirely correctly->0: Success
+   + an exaple with twoo misspelled words->2: Success
+   + facebook speak r u l8 2 wrk->4: Success
+  Check some case and punctuation
+   + SEE cAsE does NOT MaTTer->0: Success
+   + !punctuation should not make, any difference?->0: Success
+  Some words spelled correctly, but not handled correctly.
+  Could use a UK dictionary, for instance, or add slang.
+   + Two words that are OK but coloured wrong->2: Success
+  Or update the dictionary with acronyms
+   + Which is better, iOs or Android?->1: Success
+----------------------------------------------------------------------
+  Tests passing 8/8 (100%).
+
+Checking function: spellCheck; Check words found. -------------------
+   + an exaple with twoo misspelled words->exaple twoo: Success
+   + facebook speak r u l8 2 wrk->facebook l8 2 wrk: Success
+   + Two words that are OK but coloured wrong->ok coloured: Success
+   + Which is better, iOs or Android?->ios: Success
+----------------------------------------------------------------------
+  Tests passing 4/4 (100%).
+
+Checking function: spellCheck; Multiple misspellings. -------------------
+   X zots frog zots ape zots: found->{0, 10, 19, -1}: Failed
+   + frog frg frog frg frog->{5, 14}: Success
+   X a I cadillax: found->{4, -1}: Failed
+----------------------------------------------------------------------
+  Tests passing 1/3 (33%).
+
+----------------------------------------------------------------------
+H19:WHO AM I?:ALL TESTS -- PASS 13/15 (87%).
+----------------------------------------------------------------------
+MTU3MTc4Nzk0ODpXSE8gQU0gST86SDE5Ojg2LjY3JQ==
