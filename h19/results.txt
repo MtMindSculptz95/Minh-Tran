@@ -1,4 +1,4 @@
-TESTING H19--WHO AM I?
+TESTING H19--mtran362
 ----------------------------------------------------------------------
 Checking function: spellCheck; Check number found. -------------------
    + some examples with only correct words->0: Success
@@ -32,6 +32,6 @@ Checking function: spellCheck; Multiple misspellings. -------------------
   Tests passing 1/3 (33%).
 
 ----------------------------------------------------------------------
-H19:WHO AM I?:ALL TESTS -- PASS 13/15 (87%).
+H19:mtran362:ALL TESTS -- PASS 13/15 (87%).
 ----------------------------------------------------------------------
-MTU3MTc4Nzk0ODpXSE8gQU0gST86SDE5Ojg2LjY3JQ==
+MTU3MTc4ODA3MzptdHJhbjM2MjpIMTk6ODYuNjcl
