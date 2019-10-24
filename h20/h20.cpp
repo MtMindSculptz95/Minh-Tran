@@ -1,5 +1,5 @@
 /**
- *  @author Put your name here
+ *  @author Minh Tran
  *  @date Put the date here
  *  @file h20.cpp
  */
@@ -7,7 +7,7 @@
 #include <iostream>
 using namespace std;
 
-string STUDENT = "WHO AM I?"; // Add your Canvas/occ-email ID
+string STUDENT = "mtran362"; // Add your Canvas/occ-email ID
 
 #include "h20.h"
 
