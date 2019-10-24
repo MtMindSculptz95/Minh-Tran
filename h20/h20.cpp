@@ -15,6 +15,20 @@ const int BPP = 4;
 void negative(unsigned char * const img, int width, int height)
 {
     // Add your code here
+    unsigned char *p = img;
+    const auto end = img + width * height * BPP;
+    while( p != end )
+    {
+        *p = 255 - *p;
+        p++;
+
+        *p = 255 - *p;
+        p++;
+
+        *p = 255 - *p;
+        p++;
+        p++;
+    }
 }
 
 /////////////// STUDENT TESTING ////////////////////
