@@ -53,7 +53,7 @@ void mirror(UC* const img, int width, int height, Direction dir)
 {
     // Add your code here
     for(int row = 0; row < height-1; row++)
-        {
+    {
         Pixel * front = reinterpret_cast<Pixel *> (img) + row * width;
         Pixel * back = front + width - 1;
             while(front < back)
@@ -69,26 +69,25 @@ void mirror(UC* const img, int width, int height, Direction dir)
                front++;
                back--;
             }
-        }
-
-        for(int col = 0; col < width; col++)
+    }
+    for(int col = 0; col < width; col++)
+    {
+        Pixel *top = reinterpret_cast<Pixel *> (img) + col;
+        auto *bottom = top + width * (height -1);
+        while(top < bottom)
         {
-            Pixel *top = reinterpret_cast<Pixel *> (img) + col;
-            auto *bottom = top + width * (height -1);
-            while(top < bottom)
+            if(dir == Direction::BtoT)
             {
-                if(dir == Direction::BtoT)
-               {
-                   *top = *bottom;
-               }
-               if(dir == Direction::TtoB)
-               {
-                   *bottom = *top;
-               }
+                  *top = *bottom;
+            }
+            if(dir == Direction::TtoB)
+            {
+                  *bottom = *top;
+            }
                top += width;
                bottom -= width;
-            }
         }
+    }
 }
 
 
