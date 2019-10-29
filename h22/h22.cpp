@@ -7,7 +7,7 @@
 #include <iostream>
 using namespace std;
 
-string STUDENT = "WHO AM I?"; // Add your Canvas/occ-email ID
+string STUDENT = "mtran362"; // Add your Canvas/occ-email ID
 
 
 #include "h22.h"
@@ -15,6 +15,38 @@ string STUDENT = "WHO AM I?"; // Add your Canvas/occ-email ID
 void flip(UC* const img, int width, int height, Direction dir)
 {
     // Add your code here
+    if(dir == Direction::LtoR || dir == Direction::RtoL)
+    {
+        for(int row = 0; row < height - 1; row++)
+        {
+            Pixel * front = reinterpret_cast<Pixel *> (img) + row * width;
+            Pixel * back = front + width - 1;
+            while(front < back)
+            {
+                auto temp = *front;
+                *front = *back;
+                *back = temp;
+                front++;
+                back--;
+            }
+        }
+    }
+    if(dir == Direction::TtoB || dir == Direction::BtoT)
+    {
+        for(int col = 0; col < width; col++)
+        {
+            Pixel *top = reinterpret_cast<Pixel *> (img) + col;
+            Pixel *bottom = top + width * (height - 1);
+            while(top < bottom)
+            {
+                auto temp = *top;
+                *top = *bottom;
+                *bottom = temp;
+                top += width;
+                bottom -= width;
+            }
+        }
+    }
 }
 
 void mirror(UC* const img, int width, int height, Direction dir)
