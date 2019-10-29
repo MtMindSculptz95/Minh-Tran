@@ -17,6 +17,19 @@ const int BPP = 4;
 void greenScreen(unsigned char * const img, int width, int height)
 {
     // Add your code here
+    unsigned char *p = img;
+    auto * const end = img + width * height * BPP;
+    while(p != end)
+    {
+        if(*(p +1) > *p * 2 && *(p + 1) > *(p + 2) * 2)
+        {
+            *p = 0;
+            *(p + 1) = 0;
+            *(p + 2) = 0;
+            *(p + 3) = 0;
+        }
+        p += 4;
+    }
 }
 
 void composite(unsigned char * const bg, unsigned char * const fg,
