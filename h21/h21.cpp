@@ -7,7 +7,7 @@
 #include <iostream>
 using namespace std;
 
-string STUDENT = "WHO AM I?"; // Add your Canvas/occ-email ID
+string STUDENT = "mtran362"; // Add your Canvas/occ-email ID
 
 
 #include "h21.h"
@@ -36,6 +36,22 @@ void composite(unsigned char * const bg, unsigned char * const fg,
                 int width, int height)
 {
     // Add your code here
+    greenScreen(fg, width, height);
+    unsigned char *dest = fg;
+    unsigned char *src = bg;
+    const auto * const  end = fg + width * height * BPP;
+    while( dest != end)
+    {
+        if(*dest == 0 && *(dest + 1) == 0 && *(dest + 2) == 0 &&*(dest + 3) == 0)
+        {
+            *dest = *src;
+            *(dest+1) = *(src+1);
+            *(dest+2) = *(src +2);
+            *(dest+3) = *(src+3);
+        }
+        src +=4;
+        dest += 4;
+    }
 }
 
 /////////////// STUDENT TESTING ////////////////////
