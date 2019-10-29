@@ -1,0 +1,22 @@
+TESTING H22--mtran362
+----------------------------------------------------------------------
+Checking function: flip -------------------
+   + flip worked correctly for images/stegosaurus.png
+   + flip worked correctly for images/stegosaurus.png
+   + flip worked correctly for images/stegosaurus.png
+   + flip worked correctly for images/stegosaurus.png
+----------------------------------------------------------------------
+  Tests passing 4/4 (100%).
+
+Checking function: mirror -------------------
+   + mirror worked correctly for images/stegosaurus.png
+   + mirror worked correctly for images/stegosaurus.png
+   + mirror worked correctly for images/stegosaurus.png
+   + mirror worked correctly for images/stegosaurus.png
+----------------------------------------------------------------------
+  Tests passing 4/4 (100%).
+
+----------------------------------------------------------------------
+H22:mtran362:ALL TESTS -- PASS 8/8 (100%).
+----------------------------------------------------------------------
+MTU3MjMyNjUwNDptdHJhbjM2MjpIMjI6MTAwLjAwJQ==
