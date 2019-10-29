@@ -1,0 +1,19 @@
+TESTING H21--mtran362
+----------------------------------------------------------------------
+Checking function: greenScreen -------------------
+   + greenScreen worked correctly for images/ReyGreenScreen.png
+   + greenScreen worked correctly for images/lego.png
+   + greenScreen worked correctly for images/cpp.jpg
+----------------------------------------------------------------------
+  Tests passing 3/3 (100%).
+
+Checking function: composite -------------------
+   + composite worked correctly for images/ReyGreenScreen.png
+   + composite worked correctly for images/leaves.png
+----------------------------------------------------------------------
+  Tests passing 2/2 (100%).
+
+----------------------------------------------------------------------
+H21:mtran362:ALL TESTS -- PASS 5/5 (100%).
+----------------------------------------------------------------------
+MTU3MjMyNjUyNDptdHJhbjM2MjpIMjE6MTAwLjAwJQ==
