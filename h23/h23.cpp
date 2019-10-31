@@ -14,23 +14,30 @@ string STUDENT = "mtran362"; // Add your Canvas/occ-email ID
 // Add your code here
 MinMax minMax(const double *ptr, size_t size)
 {
-    struct MinMax result;
+    MinMax result;
     result.min = ptr;
     result.max = ptr;
 
-    auto atEnd = ptr + (size - 1);
-
-    while(ptr < atEnd)
+    if(size == 0)
     {
-        ptr++;
+        result.max = 0;
+        result.min = 0;
+    }
+    else if(size > 0)
+    {
+        auto atEnd= ptr + size - 1;
+        while(ptr < atEnd)
+        {
+            ptr++;
 
-        if(*ptr > *(result.max))
-        {
-            result.max = ptr;
-        }
-        if(*ptr < *(result.min))
-        {
-            result.min = ptr;
+            if(*ptr > *(result.max))
+            {
+                result.max = ptr;
+            }
+            if(*ptr < *(result.min))
+            {
+                result.min = ptr;
+            }
         }
     }
     return result;
