@@ -38,7 +38,7 @@ MinMax minMax(const double *ptr, size_t size)
 int alternatingSum(const int a[], size_t size)
 {
     int sum = 0;
-    int indexes[5];
+    int iIndexes[5];
     for(size_t i = 0; i < size; i++)
     {
         if(a[i] % 2 == 0)
