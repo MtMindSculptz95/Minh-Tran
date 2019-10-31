@@ -43,11 +43,11 @@ int alternatingSum(const int a[], size_t size)
     {
         if(i % 2 == 0)
         {
-            sum += a[i];
+            sum += a[0];
         }
-        if(i % 2 != 0)
+        else if(i % 2 != 0)
         {
-            sum += a[i];
+            sum += a[0];
         }
     }
     return sum;
