@@ -14,10 +14,19 @@
 #include <sstream>
 
 // Place your Point structure definition here
-
+struct Point
+{
+    int x;
+    int y;
+};
 
 // Place your Triangle structure definition here
-
+struct Triangle
+{
+    Point p1;
+    Point p2;
+    Point p3;
+};
 
 /**
  * Reads a point in the form x,y.
