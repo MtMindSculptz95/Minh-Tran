@@ -18,7 +18,7 @@ MinMax minMax(const double *ptr, size_t size)
     result.min = ptr;
     result.max = ptr;
 
-    auto * atEnd = ptr + size;
+    auto atEnd = ptr + (size - 1);
 
     while(ptr < atEnd)
     {
@@ -45,7 +45,7 @@ int alternatingSum(const int a[], size_t size)
         {
             sum += a[i];
         }
-        else if(i % 2 != 0)
+        if(i % 2 != 0)
         {
             sum += a[i];
         }
