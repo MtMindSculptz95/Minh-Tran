@@ -28,7 +28,7 @@ MinMax minMax(const double *ptr, size_t size)
         {
             result.max = ptr;
         }
-        if(ptr < result.min)
+        if(*ptr < *(result.min))
         {
             result.min = ptr;
         }
