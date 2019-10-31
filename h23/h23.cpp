@@ -41,11 +41,11 @@ int alternatingSum(const int a[], size_t size)
     //int iArray[5];
     for(size_t i = 0; i < size; i++)
     {
-        if(a[i] % 2 == 0)
+        if(i % 2 == 0)
         {
             sum += a[i];
         }
-        else if(a[i] % 2 != 0)
+        else if(i % 2 != 0)
         {
             sum += a[i];
         }
