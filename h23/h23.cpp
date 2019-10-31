@@ -38,14 +38,14 @@ MinMax minMax(const double *ptr, size_t size)
 int alternatingSum(const int a[], size_t size)
 {
     int sum = 0;
-    //int iArray[5];
+    sum += a[0];
     for(size_t i = 0; i < size; i++)
     {
         if(i % 2 == 0)
         {
             sum += a[0];
         }
-        if(i % 2 != 0)
+        else if(i % 2 != 0)
         {
             sum += a[0];
         }
