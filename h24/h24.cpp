@@ -14,17 +14,17 @@ string STUDENT = "mtran362"; // Add your Canvas/occ-email ID
 // Add your code here
 void translate(unsigned char* const img, int width, int height, int dx, int dy)
 {
-    Pixel * pixels = reinterpret_cast<Pixel *>(img);
+    Pixel * pixels = reinterpret_cast<Pixel *> (img);
+    if(dx < 0)
+    {
+        dx = width - abs(dx) % width;
+    }
+    else
+    {
+        dx = dx % width;
+    }
     for(int row = 0; row < height; row++)
     {
-        if(dx < 0)
-        {
-            dx = width - abs(dx) % width;
-        }
-        else
-        {
-            dx = dx % width;
-        }
         for(int j = 0; j < dx; j++)
         {
             auto r = pixels + (row * width);
@@ -36,20 +36,21 @@ void translate(unsigned char* const img, int width, int height, int dx, int dy)
             r[0] = temp;
         }
     }
-    auto lastRow = pixels + width * (height - 1);
-    for(int k = 0; k < dy; k--)
+    //}
+    if(dy < 0)
     {
-        if(dy < 0)
-        {
-            dy = (height - abs(dy)) & height;
-        }
-        else
-        {
-            dy = dy % height;
-        }
+        dy = height - abs(dy) % height;
+    }
+    else
+    {
+        dy = dy % height;
+    }
+    auto lastRow = pixels + width * (height - 1);
+    for(int i = 0; i < dy; i++)
+    {
         for(int col = 0; col < width; col++)
         {
-            auto t = pixels + width * (height - 1);
+            auto r = pixels + width * (height - 1);
             auto temp = lastRow[col];
             for(int row = height - 1; row > 0; row--)
             {
