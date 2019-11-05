@@ -12,7 +12,7 @@ string STUDENT = "mtran362"; // Add your Canvas/occ-email ID
 #include "h24.h"
 
 // Add your code here
-void translate(UC* const img, int width, int height, int dx, int dy)
+void translate(unsigned char* const img, int width, int height, int dx, int dy)
 {
     Pixel * pixels = reinterpret_cast<Pixel *>(img);
     for(int row = 0; row < height; row++)
