@@ -17,20 +17,14 @@ bool sameSet(const int *aBeg,const int *aEnd,const int *bBeg,const int *bEnd)
    bool ret=false;
    bool chek=false;
 
-   // array a
    for(const int *p=aBeg;*p!=*aEnd;p++){
        chek=false;
-       // array b
        for(const int *q=bBeg;*q!=*bEnd;q++){
-
-           // is if element found
            if(*q==*p){
                chek=true;
                break;
            }
        }
-
-       // if element not found
        if(chek==false)   {
            ret=false;
            break;
