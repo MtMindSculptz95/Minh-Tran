@@ -7,12 +7,101 @@
 #include <stdexcept>
 using namespace std;
 
-string STUDENT = "WHO AM I?"; // Add your Canvas/occ-email ID
+string STUDENT = "mtran362"; // Add your Canvas/occ-email ID
 
 #include "h25.h"
 
 // Add your code here
+bool sameSet(const int *aBeg,const int *aEnd,const int *bBeg,const int *bEnd)
+{
+   bool ret=false;
+   bool chek=false;
 
+   // array a
+   for(const int *p=aBeg;*p!=*aEnd;p++){
+       chek=false;
+       // array b
+       for(const int *q=bBeg;*q!=*bEnd;q++){
+
+           // is if element found
+           if(*q==*p){
+               chek=true;
+               break;
+           }
+       }
+
+       // if element not found
+       if(chek==false)   {
+           ret=false;
+           break;
+       }
+       else{
+           ret=true;
+       }
+   }
+
+   // alll element of a exist in b
+   // but all element of b may not exit in a
+   // thst's why checking again
+   // if exist so same set
+
+   // reset
+   ret=false;
+   chek=false;
+
+   // array b
+   for(const int *p1=bBeg;*p1!=*bEnd;p1++){
+       chek=false;
+
+       // array a
+       for(const int *q1=aBeg;*q1!=*aEnd;q1++){
+
+           // if element found
+           if(*q1==*p1){
+               chek=true;
+           break;
+           }
+       }
+       // if not found
+       if(chek==false)   {
+           ret=false;
+           break;
+       }
+       else{
+           ret=true;
+       }
+   }
+
+
+   return(ret);
+}
+
+
+void copyEvens(const int a[], size_t aSize, int b[], size_t& bSize)
+{
+
+   // if length error
+   if(bSize<aSize)
+   {
+       throw length_error("Size is Lower than source size");
+   }
+   else
+   {
+       bSize=0;
+
+       for(size_t i=0;i<aSize;i++)
+       {
+
+           // if even add in b
+           if(a[i]%2==0)
+           {
+
+               b[bSize]=a[i];
+               bSize++;
+           }
+       }
+   }
+}
 
 
 /////////////// STUDENT TESTING ////////////////////
