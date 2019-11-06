@@ -40,29 +40,16 @@ bool sameSet(const int *aBeg,const int *aEnd,const int *bBeg,const int *bEnd)
        }
    }
 
-   // alll element of a exist in b
-   // but all element of b may not exit in a
-   // thst's why checking again
-   // if exist so same set
-
-   // reset
    ret=false;
    chek=false;
-
-   // array b
    for(const int *p1=bBeg;*p1!=*bEnd;p1++){
        chek=false;
-
-       // array a
        for(const int *q1=aBeg;*q1!=*aEnd;q1++){
-
-           // if element found
            if(*q1==*p1){
                chek=true;
            break;
            }
        }
-       // if not found
        if(chek==false)   {
            ret=false;
            break;
@@ -75,12 +62,9 @@ bool sameSet(const int *aBeg,const int *aEnd,const int *bBeg,const int *bEnd)
 
    return(ret);
 }
-
-
 void copyEvens(const int a[], size_t aSize, int b[], size_t& bSize)
 {
 
-   // if length error
    if(bSize<aSize)
    {
        throw length_error("Size is Lower than source size");
