@@ -18,8 +18,8 @@ Bug::Bug(int startPos)
 }
 void Bug::move()
 {
-    if(direction_ == 1) position_++;
-    else if(direction_ == 0) position_--;
+    if(direction_ == 1)  position_++;
+    else if(direction_ == 0)  position_--;
 }
 void Bug::turn()
 {
@@ -29,7 +29,7 @@ void Bug::turn()
     }
     else if(direction_ == 1)
     {
-        direction_ = 1;
+        direction_ = 0;
     }
 }
 int Bug::position() const
