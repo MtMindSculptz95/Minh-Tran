@@ -1,0 +1,26 @@
+TESTING H28--mtran362
+----------------------------------------------------------------------
+Checking function: Testing Bugs -------------------
+   + Constructing sam at position 2->2
+   + Constructing julie at position 12->12
+   + Constructing fred at position -10->-10
+   + Moving sam one to the right.->3
+   + Moving sam one more to the right.->4
+   + Moving fred one to the left.->-11
+   + Moving fred one more to the left.->-12
+   + Moving fred back two places to the right.->-10
+----------------------------------------------------------------------
+  Tests passing 8/8 (100%).
+
+Checking function: Test the Employee class -------------------
+   + Salary initialized in default ctor; emp.salary()
+   + Working ctor initializes salary; emp2.salary()
+   + Working ctor initializes name: Success
+   + salary() mutator correcly sets salary; emp2.salary()
+----------------------------------------------------------------------
+  Tests passing 4/4 (100%).
+
+----------------------------------------------------------------------
+H28:mtran362:ALL TESTS -- PASS 12/12 (100%).
+----------------------------------------------------------------------
+MTU3MzcwNDQ4NjptdHJhbjM2MjpIMjg6MTAwLjAwJQ==
