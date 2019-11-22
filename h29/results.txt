@@ -1,0 +1,49 @@
+TESTING H29--mtran362
+----------------------------------------------------------------------
+Checking function: Image Class Constructors and Accessors -------------------
+   + Default constructor; width. ->0
+   + Default constructor; height.->0
+   + Default constructor; size.->0
+   + 2-arg constructor; width. ->25
+   + 2-arg constructor; height.->50
+   + 2-arg constructor; size.->1250
+   + Load jpg ctor; width. ->256
+   + Load jpg ctor; height.->256
+   + Load jpg ctor; size.->65536
+   + Load png ctor; width. ->128
+   + Load png ctor; height.->128
+   + Load png ctor; size.->16384
+----------------------------------------------------------------------
+  Tests passing 12/12 (100%).
+
+Checking function: Image Class access with at() -------------------
+   + Image save seems to work
+   + at() works correctly.
+----------------------------------------------------------------------
+  Tests passing 2/2 (100%).
+
+Checking function: Image Class Mutators -------------------
+   + Try to load missing file.
+   + Try to load cpp.png.
+   + After loading; width. ->128
+   + After loading; height.->128
+   + After loading; size.->16384
+   + img.fill(255); red.->255
+   + img.fill(255); green.->0
+   + img.fill(255); blue.->0
+   + img.fill(255); alpha.->255
+   + img.fill(0,255); red.->0
+   + img.fill(0,255); green.->255
+   + img.fill(0,255); blue.->0
+   + img.fill(0,255); alpha.->255
+   + img.fill(0,0,255); red.->0
+   + img.fill(0,0,255); green.->0
+   + img.fill(0,0,255); blue.->255
+   + img.fill(0,0,255); alpha.->255
+----------------------------------------------------------------------
+  Tests passing 17/17 (100%).
+
+----------------------------------------------------------------------
+H29:mtran362:ALL TESTS -- PASS 31/31 (100%).
+----------------------------------------------------------------------
+MTU3NDM4NjcyMzptdHJhbjM2MjpIMjk6MTAwLjAwJQ==
