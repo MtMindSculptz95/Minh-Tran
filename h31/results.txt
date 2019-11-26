@@ -1,0 +1,18 @@
+TESTING H31--mtran362
+----------------------------------------------------------------------
+Checking function: Recursive find. -------------------
+   + find("Mississipi", "ipi")
+   + find("Mississipi", "ipx")
+   + find("Sommertown", "Som")
+   + find("Sommertown", "Sommertowne")
+   + find("Somewhere in the middle", "in")
+   + find("Alice in Wonderland", "Alice")
+   + find("Ordinal", "Ordinale")
+   + find("Eenie meenie miney moe", "min")
+----------------------------------------------------------------------
+  Tests passing 8/8 (100%).
+
+----------------------------------------------------------------------
+H31:mtran362:ALL TESTS -- PASS 8/8 (100%).
+----------------------------------------------------------------------
+MTU3NDgxMjc0NDptdHJhbjM2MjpIMzE6MTAwLjAwJQ==
