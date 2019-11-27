@@ -1,0 +1,16 @@
+TESTING H32--mtran362
+----------------------------------------------------------------------
+Checking function: Recursive stringClean -------------------
+   + stringClean("yyzzza"): Success
+   + stringClean("abbbcdd"): Success
+   + stringClean("Hello"): Success
+   + stringClean("XXabcYY"): Success
+   + stringClean("112ab445"): Success
+   + stringClean("Hello Bookkeeper"): Success
+----------------------------------------------------------------------
+  Tests passing 6/6 (100%).
+
+----------------------------------------------------------------------
+H32:mtran362:ALL TESTS -- PASS 6/6 (100%).
+----------------------------------------------------------------------
+MTU3NDgxMjkyNjptdHJhbjM2MjpIMzI6MTAwLjAwJQ==
