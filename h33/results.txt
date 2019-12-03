@@ -1,0 +1,24 @@
+TESTING H33--mtran362
+----------------------------------------------------------------------
+Checking function: Recursive subCount -------------------
+   + subCount("catcowcat", "cat")->2
+   + subCount("catcowcat", "cow")->1
+   + subCount("catcowcat", "dog")->0
+   + subCount("cacatcowcat", "cat")->2
+   + subCount("xyx", "x")->2
+   + subCount("iiiijj", "i")->4
+   + subCount("iiiijj", "ii")->2
+   + subCount("iiiijj", "iii")->1
+   + subCount("iiiijj", "j")->2
+   + subCount("iiiijj", "jj")->1
+   + subCount("aaabababab", "ab")->4
+   + subCount("aaabababab", "aa")->1
+   + subCount("aaabababab", "a")->6
+   + subCount("aaabababab", "b")->4
+----------------------------------------------------------------------
+  Tests passing 14/14 (100%).
+
+----------------------------------------------------------------------
+H33:mtran362:ALL TESTS -- PASS 14/14 (100%).
+----------------------------------------------------------------------
+MTU3NTQwMzQyNDptdHJhbjM2MjpIMzM6MTAwLjAwJQ==
