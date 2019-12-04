@@ -38,7 +38,7 @@ std::string Circle::toString(int decimals) const
 {
     ostringstream out;
     out << fixed << setprecision(decimals) << radius;
-    return "Circle(radius=" + out.str() + ", center= " + Point::toString(decimals) + ")";
+    return "Circle(radius=" + out.str() + ", center=" + Point::toString(decimals) +")";
 }
 
 Cylinder::Cylinder(double h, double r, double x, double y) : Circle(r, x, y)
