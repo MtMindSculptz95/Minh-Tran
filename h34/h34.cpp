@@ -31,7 +31,7 @@ double Circle::getArea() const
 
 double Circle::getCircumference() const
 {
-    return 2 * PI + radius;
+    return 2 * PI * radius;
 }
 
 std::string Circle::toString(int decimals) const
