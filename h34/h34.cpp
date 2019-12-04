@@ -66,7 +66,7 @@ string Cylinder::toString(int decimals) const
 {
     ostringstream out;
     out << fixed << setprecision(decimals) << height;
-    return "Cylinder(height=" + out.str() + ", base =" + Circle::toString(decimals) + ")";
+    return "Cylinder(height=" + out.str() + ", base=" + Circle::toString(decimals) + ")";
 
 }
 
