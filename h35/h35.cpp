@@ -19,6 +19,7 @@ Worker:: Worker(const string& NAME, double RATE)
     name = NAME;
     rate = RATE;
 }
+
 string Worker::getName() const { return name; }
 double Worker::getRate() const { return rate; }
 
